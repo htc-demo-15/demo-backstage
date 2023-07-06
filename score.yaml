@@ -55,7 +55,6 @@ containers:
 resources:
   dns:
     type: dns
-
   db:
     type: postgres
     properties:

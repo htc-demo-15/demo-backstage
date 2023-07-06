@@ -8,7 +8,4 @@ spec:
           "/":
             type: prefix
             port: 7007
-
-resources:
-  dns:
-    scope: shared
+            

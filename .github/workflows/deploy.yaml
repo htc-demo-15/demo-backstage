@@ -87,7 +87,7 @@ jobs:
         if: ${{ github.repository_owner != 'humanitec' }}
         run: |
           wget https://github.com/score-spec/score-humanitec/releases/download/0.5.0/score-humanitec_0.5.0_linux_amd64.tar.gz
-          tar -xvf score-humanitec_0.3.0_linux_amd64.tar.gz
+          tar -xvf score-humanitec_0.5.0_linux_amd64.tar.gz
           chmod +x score-humanitec
           mv score-humanitec /usr/local/bin
 
